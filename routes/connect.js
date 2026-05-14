@@ -5,7 +5,7 @@ async function getConnection(){
     let connection;
     try{
         connection = oracledb.getConnection({
-            user:'user207',
+            user:'user206',
             password:'pass',
             connectString:'172.18.7.157:1521/xe'
         });
